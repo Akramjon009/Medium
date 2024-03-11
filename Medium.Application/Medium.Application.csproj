@@ -6,4 +6,19 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Medium.Domen\Medium.Domen.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="UserCases\MediumPost\" />
+    <Folder Include="UserCases\MediumUser\Commands\" />
+    <Folder Include="UserCases\MediumUser\Handlers\" />
+    <Folder Include="UserCases\MediumUser\Queries\" />
+  </ItemGroup>
+
 </Project>
